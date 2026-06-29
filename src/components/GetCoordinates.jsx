@@ -52,7 +52,7 @@ const GetCoordinates = ({ onLocationSubmit }) => {
 				placeholder="Longitude"
 				className="p-1"
 			/>
-			<button type="submit" className="p-1">
+			<button type="submit" className="p-1 hover:text-[#1FA85C]">
 				<FaSearch />
 			</button>
 		</form>

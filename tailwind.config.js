@@ -3,6 +3,7 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+			colors: { jeroo: { green: '#1FA85C', lime: '#9FE040', teal: '#009070' } },
 			keyframes: {
 				slideIn: {
 					"0%": {
